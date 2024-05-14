@@ -1,0 +1,42 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(to right bottom aqua,black,white);
+    height: 100vh;
+}
+nav
+{
+    background-color: burlywood;
+}
+#cont
+{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+a:hover
+{
+    background-color: black;
+}
+#mnu1
+{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    background-color: greenyellow;
+    position: absolute;
+    display: none;
+}
+#drop:hover #mnu1
+{
+    display: block;
+}
